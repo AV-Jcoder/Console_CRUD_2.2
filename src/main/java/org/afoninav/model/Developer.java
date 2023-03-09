@@ -11,8 +11,7 @@ public class Developer {
     private Specialty specialty;
     private Status status;
 
-    public Developer() {
-    }
+    public Developer() {}
 
     public Long getId() {
         return id;

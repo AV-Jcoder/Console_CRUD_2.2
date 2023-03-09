@@ -4,7 +4,7 @@ public class Specialty {
 
     private Long id;
 
-    private String specialty;
+    private String title;
 
     public Specialty() {}
 
@@ -17,10 +17,10 @@ public class Specialty {
     }
 
     public String getSpecialty() {
-        return specialty;
+        return title;
     }
 
     public void setSpecialty(String specialty) {
-        this.specialty = specialty;
+        this.title = specialty;
     }
 }

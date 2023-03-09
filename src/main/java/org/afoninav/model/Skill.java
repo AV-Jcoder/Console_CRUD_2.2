@@ -4,7 +4,7 @@ public class Skill {
 
     private Long id;
 
-    private String skill;
+    private String title;
 
     public Skill() {}
 
@@ -17,10 +17,10 @@ public class Skill {
     }
 
     public String getSkill() {
-        return skill;
+        return title;
     }
 
     public void setSkill(String skill) {
-        this.skill = skill;
+        this.title = skill;
     }
 }
